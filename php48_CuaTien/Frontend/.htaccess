@@ -1,0 +1,18 @@
+RewriteEngine On
+#rewrite header menu
+RewriteRule ^home$ index.php
+RewriteRule ^cart$ index.php?controller=cart&action=read
+#rewrite trang new
+RewriteRule ^news$ index.php?controller=news&action=read
+RewriteRule ^news/page/(.*)/(.*)$ index.php?controller=news&action=read&id=$1&p=$2
+RewriteRule ^contact$ index.php?controller=contact&action=read
+#rewrite trang danh muc san pham
+RewriteRule ^products/categories/(.*)/(.*)$ index.php?controller=products&action=categories&id=$2
+#rewrite trang chi tiet san pham
+RewriteRule ^products/detail/(.*)/(.*)$ index.php?controller=products&action=detail&id=$2
+RewriteRule ^news/detail/(.*)/(.*)$ index.php?controller=news&action=detail&id=$2
+#rewrite Cart
+RewriteRule ^cart/(.*)$ index.php?controller=cart&action=add&id=$1
+#rewrite account
+RewriteRule ^login$ index.php?controller=account&action=login
+RewriteRule ^user/read$ index.php?controller=account&action=read

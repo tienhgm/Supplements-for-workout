@@ -1,0 +1,314 @@
+	/* HOME PAGE*/
+.logo{
+	width: 100px;height: 100px;
+}
+.navbar-nav .nav-item .nav-link:hover{color: #00afe8; transition: 0.6s;}
+/*Slide Show*/
+.carousel-item {
+      height: 100vh;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+.carousel-caption {bottom: 230px;}
+
+.carousel-caption h5 {
+ font-size: 44px; text-transform: uppercase; letter-spacing: 2px; margin-top: 25px;}
+
+.carousel-caption p {width: 75%;margin: auto; font-size: 18px; line-height: 1.9;}
+/*end Slide Show*/
+
+/*category-homepage*/
+.cate1{
+	margin: 40px 20px;
+	border: 1px solid #00afe8;
+	height: 60px;
+	padding-top: 15px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.cate1 a{
+	text-decoration: none;
+	color: black;
+}
+.cate1:hover{background: #00afe8;
+	transition: all 1s;
+}
+.cate1 a:hover{color: white;
+transition: 0.5s;}
+
+/* end category-homepage*/
+
+/*hot-discount product*/
+.box-product{ height: 470px; }
+.box-product:hover{border: 1px solid #ebebeb;}
+.img-pr img{
+	max-width: 170px;
+	height: auto;
+}
+.tagtick{ width: 100%; margin: 10px 0; margin-bottom: 20px;}
+.tagtick .noibat{padding: 0 7px; margin-left:75px; text-align: center; color: #21AB0B; background: white;
+			border: 1px solid #21AB0B; -webkit-border-radius: 10px; width: 70px;}
+.tagtick .noibat1{padding: 0 7px; margin-left:75px; text-align: center; color: red; background: white;
+	border: 1px solid red; -webkit-border-radius: 10px; width: 70px;}
+
+.caption .product{ padding: 10px 15px;}
+.caption .product a{ font-size: 22px; text-decoration: none; color: black;}
+.caption .product a:hover{color: #00afe8; transition: 0.5s;}
+.add-to-cart{margin-top: 10px; width: 120px; border: 1px solid #00afe8; border-radius: 12px; padding: 5px;}
+.add-to-cart a{ color: black; text-decoration: none; }
+.add-to-cart a:hover{color: #00afe8;transition: 0.3s; }
+.product{margin-left: 10px;}
+/*END hot-discount product*/
+
+/*san pham tieu bieu*/
+.title-tieubieu{
+	font-size: 60px;
+	font-weight: bold;
+	color:#CD853F;
+	font-family: 'inherit';
+}
+.title-content{
+	font-size: 30px;
+}
+
+/* /san pham tieu bieu*/
+
+
+.footer1, .footer2, .footer3, .footer4{
+	font-weight:bold;
+}
+
+.thongtin-sp a{
+	text-decoration: none;
+	color: black;
+}
+.thongtin-sp a:hover{
+	text-decoration: none;
+	color: #00afe8;
+}
+
+/* /HOME PAGE*/
+
+/*Trang danh mục*/
+.box-chucnang{
+	display: flex;
+
+	
+}
+.box-search{
+	margin-top: 3px;
+}
+form#search{
+	
+	position: relative;
+	margin: 0 40px;
+}
+
+form#search input{
+	
+	height: 33px;
+	outline: none;
+	padding: 3px 4px;
+}
+form#search button{
+	position: absolute;
+	right: 0px;
+	top: 1px;
+	height: 31px;
+	border: none;
+	background: #999999;
+	width: 30px;
+	
+}
+
+.danhmuc .title{
+	color: white;
+	margin-bottom: 1px;
+	font-size: 20px;
+}
+
+.danhmuc .content ul{
+	list-style: none;
+	
+	padding: 10px 0;
+}
+.danhmuc .content li{
+	padding-top: 15px;
+}
+.danhmuc .content a{
+	color: black;
+	text-decoration: none;
+	
+}
+.danhmuc .content a:hover{color: #00afe8; transition: 0.5s;}
+
+.cate-whey{
+	display: none;
+}
+.all-sanpham .title{
+	color: #00afe8;
+	font-weight: bold;
+	margin-top: 1px;
+	font-size: 20px;
+}
+.all-sanpham a{
+	text-decoration: none;
+	color: #A9A9A9;
+}
+.all-sanpham .chitiet{
+	width: 150px;
+
+}
+.all-sanpham .chitiet a{
+	font-size: 20px;
+	color: black;
+}
+
+.slider {
+   -webkit-appearance: none;
+   width: 85%;
+   height: 4px;
+   border-radius: 5px;
+   background: #d3d3d3;
+   outline: none;
+   opacity: 0.7;
+   -webkit-transition: .2s;
+   transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 10px;
+   height: 10px;
+   background: #00afe8;
+   cursor: pointer;
+}
+
+.sp{
+	
+	height: 350px;
+	border: 1px solid #ebebeb;
+	overflow: hidden;
+	display: block;
+	position: relative;
+
+}
+.can-sanpham{
+	padding: 0 20px;
+	margin: 16px 0;
+
+}
+.mask{
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	z-index: 9;
+	top: 120px;
+	left: 105px;
+	background: red;
+	border-radius: 180px;
+	visibility: hidden;
+	cursor: pointer;
+	transform: translateY(100px);
+
+}
+.mask a i{color: white;}
+.sp:hover{
+	opacity: 0.7;
+}
+.sp:hover .mask{
+	visibility: visible; opacity: 1;
+	transform: translateY(0px);
+	transition: 0.5s;
+}
+
+
+.all-sanpham a:hover{color: #696969;}
+.all-sanpham .chitiet a:hover{color: #00afe8; transition: 0.5s;}
+
+.hang{
+	margin-bottom: 50px;
+}
+.hang .cost{
+	color: #ffa6a8;
+	font-size: 18px;x
+	font-weight: bold;
+}
+.hang .giacu{
+	text-decoration: line-through;
+}
+.sotrang{
+	margin-left: 960px;
+}
+
+/*/Trang danh mục*/
+
+/*Trang chi tiet*/
+.sanphamchitiet .title-chitiet{
+	font-weight: bold;
+	font-size: 36px;	
+}
+
+.sanphamchitiet .content{
+	margin-top: 20px;
+	color: #999;
+}
+
+.buy .addtocart{
+	border: 1px solid #dddddd;
+	font-size: 20px;
+	height: 40px;
+	background: white;
+	
+}
+.buy .addtocart i{
+	font-size: 20px;
+}
+.buy .addtocart:hover{
+	background: black;
+	color: white;
+	transition: 0.5s;
+
+}
+.sanphamchitiet .mua{
+	margin-top: 30px;
+}
+.info-chitiet .title{
+	font-weight: bold;
+	font-size: 30px;
+}
+.le{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.la{
+	margin-top: 10px;
+}
+.tin a{
+	text-decoration: none;
+	color: black;
+}
+.tin a:hover{
+	color: #00afe8;
+}
+/* /Trang chi tiet*/
+
+/*Cart-View*/
+.button-dep{color: white; text-align: center; text-decoration: none;display: inline-block;font-size: 16px;-webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;cursor: pointer;margin: 4px 2px;padding: 10px 32px;}
+
+.button-dep1{background-color: white; color: black; border: 2px solid #00afe8;}
+.total-cart{font-weight: bold;font-size: 22px;margin-bottom: 20px;}
+.total-cart a{color: black;font-weight: bold;}
+.total-cart a:hover{color: white;}
+.button-dep1:hover{background-color: #00afe8;text-decoration: none;color: white; }
+.button-dep2{background:#6c757d; color: white; border: 1px solid black; display: block;}
+.button-dep2:hover{background-color:#00afe8; border: 1px solid black; transition: 0.5s;}
